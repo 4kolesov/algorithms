@@ -1,1 +1,23 @@
+# gitignore
+
+# IDE
+.idea
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.sublime-project
+*.sublime-workspace
+
+.vscode/
+*.code-workspace
+
+
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+
 connectiontion.py
