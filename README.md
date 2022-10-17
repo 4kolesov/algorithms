@@ -251,6 +251,7 @@ Fi и Pi — целые числа, лежащие в диапазоне от 0 
 Для отсортированного списка участников выведите по порядку их логины по одному в строке.
 
 [Решение .py](https://github.com/4kolesov/algorithms/blob/main/effective_quicksort.py "Решение .py")
+    
     def effective_quicksort(rivals):
         def partition(left, right):
             pivot = rivals[left]
@@ -285,3 +286,4 @@ Fi и Pi — целые числа, лежащие в диапазоне от 0 
             (lambda login, done, penalty: (-int(done), int(penalty), login))(
                 *(input().split())) for _ in range(int(input()))])
         ], sep='\n')
+    
