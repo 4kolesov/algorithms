@@ -2,6 +2,7 @@
 
 # IDE
 .idea
+.fleet
 .DS_Store
 .AppleDouble
 .LSOverride
